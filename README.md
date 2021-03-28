@@ -31,11 +31,11 @@ tensorboardX
 
 ## 效果
 
-准确率	precision	Recall	F1
-Baseline	0.8658	0.8648	0.8644
-Pgd			
-Free	0.8772	0.8765	0.8762
-Fgsm	0.8866	 0.8857	0.8855
+- 准确率	precision	Recall	F1
+- Baseline	0.8658	0.8648	0.8644
+- Pgd			
+- Free	0.8772	0.8765	0.8762
+- Fgsm	0.8866	 0.8857	0.8855
  
 
 ## 使用说明
@@ -53,9 +53,9 @@ python run.py --model TextCNN  --sgdflag fgsm
 
 ### 参数
 模型都在models目录下，超参定义和模型定义在同一文件中。  
-commons：通用代码
-cores：核心代码
-dataset:数据集和模型存放路径
-models：模型代码
-trains:训练代码
-runAdv.py 训练入口
+- commons：通用代码
+- cores：核心代码
+- dataset：数据集和模型存放路径
+- models：模型代码
+- trains:训练代码
+- runAdv.py 训练入口
